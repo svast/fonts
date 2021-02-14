@@ -1,0 +1,16 @@
+catalog/designers/vaishnavimurthy
+ofl/oi
+ofl/dotgothic16
+ofl/stick
+ofl/rocknrollone
+ofl/shipporimincho
+ofl/shipporiminchob1
+ofl/mplus1p
+ofl/akayakanadaka
+ofl/akayatelivigala
+ofl/librebarcode39text
+ofl/librebarcode39extended
+ofl/librebarcode39
+ofl/librebarcode128text
+ofl/librebarcode128
+ofl/librebarcode39extendedtext
