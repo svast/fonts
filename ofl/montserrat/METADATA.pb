@@ -6,8 +6,8 @@ date_added: "2011-12-13"
 fonts {
   name: "Montserrat"
   style: "normal"
-  weight: 100
-  filename: "Montserrat-Thin.ttf"
+  weight: 400
+  filename: "Montserrat[wght].ttf"
   post_script_name: "Montserrat-Thin"
   full_name: "Montserrat Thin"
   copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
@@ -15,154 +15,10 @@ fonts {
 fonts {
   name: "Montserrat"
   style: "italic"
-  weight: 100
-  filename: "Montserrat-ThinItalic.ttf"
+  weight: 400
+  filename: "Montserrat-Italic[wght].ttf"
   post_script_name: "Montserrat-ThinItalic"
   full_name: "Montserrat Thin Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 200
-  filename: "Montserrat-ExtraLight.ttf"
-  post_script_name: "Montserrat-ExtraLight"
-  full_name: "Montserrat ExtraLight"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 200
-  filename: "Montserrat-ExtraLightItalic.ttf"
-  post_script_name: "Montserrat-ExtraLightItalic"
-  full_name: "Montserrat ExtraLight Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 300
-  filename: "Montserrat-Light.ttf"
-  post_script_name: "Montserrat-Light"
-  full_name: "Montserrat Light"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 300
-  filename: "Montserrat-LightItalic.ttf"
-  post_script_name: "Montserrat-LightItalic"
-  full_name: "Montserrat Light Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 400
-  filename: "Montserrat-Regular.ttf"
-  post_script_name: "Montserrat-Regular"
-  full_name: "Montserrat Regular"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 400
-  filename: "Montserrat-Italic.ttf"
-  post_script_name: "Montserrat-Italic"
-  full_name: "Montserrat Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 500
-  filename: "Montserrat-Medium.ttf"
-  post_script_name: "Montserrat-Medium"
-  full_name: "Montserrat Medium"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 500
-  filename: "Montserrat-MediumItalic.ttf"
-  post_script_name: "Montserrat-MediumItalic"
-  full_name: "Montserrat Medium Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 600
-  filename: "Montserrat-SemiBold.ttf"
-  post_script_name: "Montserrat-SemiBold"
-  full_name: "Montserrat SemiBold"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 600
-  filename: "Montserrat-SemiBoldItalic.ttf"
-  post_script_name: "Montserrat-SemiBoldItalic"
-  full_name: "Montserrat SemiBold Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 700
-  filename: "Montserrat-Bold.ttf"
-  post_script_name: "Montserrat-Bold"
-  full_name: "Montserrat Bold"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 700
-  filename: "Montserrat-BoldItalic.ttf"
-  post_script_name: "Montserrat-BoldItalic"
-  full_name: "Montserrat Bold Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 800
-  filename: "Montserrat-ExtraBold.ttf"
-  post_script_name: "Montserrat-ExtraBold"
-  full_name: "Montserrat ExtraBold"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 800
-  filename: "Montserrat-ExtraBoldItalic.ttf"
-  post_script_name: "Montserrat-ExtraBoldItalic"
-  full_name: "Montserrat ExtraBold Italic"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "normal"
-  weight: 900
-  filename: "Montserrat-Black.ttf"
-  post_script_name: "Montserrat-Black"
-  full_name: "Montserrat Black"
-  copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
-}
-fonts {
-  name: "Montserrat"
-  style: "italic"
-  weight: 900
-  filename: "Montserrat-BlackItalic.ttf"
-  post_script_name: "Montserrat-BlackItalic"
-  full_name: "Montserrat Black Italic"
   copyright: "Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)"
 }
 subsets: "cyrillic"
@@ -171,3 +27,350 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/JulietaUla/Montserrat"
+  commit: "cc8daf2e7085006b9c112542fc82b58afc13521d"
+  files {
+    source_file: "fonts/variable/Montserrat[wght].ttf"
+    dest_file: "Montserrat[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Montserrat-Italic[wght].ttf"
+    dest_file: "Montserrat-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "merge-forked-changes"
+  config_yaml: "sources/config.yaml"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 105.47
+  local_src: "Roboto"
+  ascent_override_pct: 93.75
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200.0
+    max_value: 200.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 106.25
+  local_src: "Roboto"
+  ascent_override_pct: 90.63
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300.0
+    max_value: 300.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 106.64
+  local_src: "Roboto"
+  ascent_override_pct: 89.06
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400.0
+    max_value: 400.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 108.59
+  local_src: "Roboto"
+  ascent_override_pct: 100.0
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500.0
+    max_value: 500.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  local_src: "Roboto"
+  ascent_override_pct: 87.5
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600.0
+    max_value: 600.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 110.94
+  local_src: "Roboto"
+  ascent_override_pct: 87.5
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700.0
+    max_value: 700.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.89
+  local_src: "Roboto"
+  ascent_override_pct: 82.81
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 800.0
+    max_value: 800.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 114.84
+  local_src: "Roboto"
+  ascent_override_pct: 84.38
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900.0
+    max_value: 900.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 117.19
+  local_src: "Roboto"
+  ascent_override_pct: 79.69
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  local_src: "Roboto Italic"
+  ascent_override_pct: 87.5
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200.0
+    max_value: 200.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.5
+  local_src: "Roboto Italic"
+  ascent_override_pct: 84.38
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300.0
+    max_value: 300.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 110.55
+  local_src: "Roboto Italic"
+  ascent_override_pct: 85.94
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400.0
+    max_value: 400.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.5
+  local_src: "Roboto Italic"
+  ascent_override_pct: 84.38
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500.0
+    max_value: 500.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 113.28
+  local_src: "Roboto Italic"
+  ascent_override_pct: 82.81
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600.0
+    max_value: 600.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 114.84
+  local_src: "Roboto Italic"
+  ascent_override_pct: 84.38
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700.0
+    max_value: 700.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 117.19
+  local_src: "Roboto Italic"
+  ascent_override_pct: 79.69
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 800.0
+    max_value: 800.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 118.75
+  local_src: "Roboto Italic"
+  ascent_override_pct: 81.25
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900.0
+    max_value: 900.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 120.7
+  local_src: "Roboto Italic"
+  ascent_override_pct: 76.56
+}

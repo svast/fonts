@@ -35,3 +35,23 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Saira"
+  commit: "1916f2a575479b626238d9842126e63aa208eebf"
+  config_yaml: "Saira/sources/config.yaml"
+  files {
+    source_file: "Saira/fonts/variable/Saira[wdth,wght].ttf"
+    dest_file: "Saira[wdth,wght].ttf"
+  }
+  files {
+    source_file: "Saira/fonts/variable/Saira-Italic[wdth,wght].ttf"
+    dest_file: "Saira-Italic[wdth,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -62,3 +62,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+primary_script: "Thai"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/cadsondemak/pridi"
+  commit: "fe54fb681271c79ffd55ea9045145c9d1da8ade1"
+}

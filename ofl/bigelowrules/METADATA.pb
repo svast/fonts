@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-02"
+source {
+  repository_url: "https://github.com/librefonts/bigelowrules"
+  commit: "f3ba7414e96d1a940b935d4fa4d2bab47150c7fc"
+}
+
 fonts {
   name: "Bigelow Rules"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"

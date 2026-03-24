@@ -14,4 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/librefonts/hennypenny"
+  commit: "4847dd1836a19c92e496eac373770f0d09743c49"
+}

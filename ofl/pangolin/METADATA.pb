@@ -18,3 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/pangolin"
+  commit: "8257f00935ee0d1dba28c9e9142c85bcb357aae2"
+}

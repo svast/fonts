@@ -24,3 +24,9 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "gon_Telu"  # Gondi, Telugu
+languages: "lmn_Telu"  # Lambadi
+languages: "te_Telu"  # Telugu
+languages: "wbq_Telu"  # Waddar
+primary_script: "Telu"

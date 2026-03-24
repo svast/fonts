@@ -16,3 +16,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/francoisoneFont"
+  commit: "09ca2d148ed2ae88b0b89b5309f5eedd1daa2e0c"
+  config_yaml: "sources/config.yaml"
+}

@@ -25,3 +25,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/magictype/goldman"
+  commit: "3fdf428a931f7a39b3f2f1681c16bfa664ca89dd"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

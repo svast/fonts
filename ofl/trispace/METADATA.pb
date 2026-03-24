@@ -26,3 +26,7 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/Etcetera-Type-Co/Trispace"
+  commit: "8f332ade4a0e4be1cab60eafcbac95a53a3d46f6"
+}

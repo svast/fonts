@@ -1,8 +1,13 @@
 name: "Asul"
 designer: "Mariela Monsalve"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2011-12-19"
+source {
+  repository_url: "https://github.com/librefonts/asul"
+  commit: "687362de82c870100b6003ad71a82c3327e05d90"
+}
+
 fonts {
   name: "Asul"
   style: "normal"
@@ -23,3 +28,5 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -17,3 +17,21 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontworks-fonts/Reggae"
+  commit: "fe9be09d02ad8ba5e71d5ce24efc5249fe77dcfc"
+  files {
+    source_file: "fonts/ttf/ReggaeOne-Regular.ttf"
+    dest_file: "ReggaeOne-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
+primary_script: "Jpan"

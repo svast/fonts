@@ -1,8 +1,13 @@
 name: "Convergence"
-designer: "Multiple Designers"
+designer: "Nicolás Silva, John Vargas Beltrán"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-09"
+source {
+  repository_url: "https://github.com/librefonts/convergence"
+  commit: "475145997c07041d94fabe462233b89f15450a41"
+}
+
 fonts {
   name: "Convergence"
   style: "normal"

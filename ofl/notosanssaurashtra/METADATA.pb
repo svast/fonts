@@ -10,6 +10,35 @@ fonts {
   filename: "NotoSansSaurashtra-Regular.ttf"
   post_script_name: "NotoSansSaurashtra-Regular"
   full_name: "Noto Sans Saurashtra Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "saurashtra"
+source {
+  repository_url: "https://github.com/notofonts/saurashtra"
+  commit: "922f6bdd4c2f6b6bae4d140253f810359ef2e62b"
+  archive_url: "https://github.com/notofonts/saurashtra/releases/download/NotoSansSaurashtra-v2.002/NotoSansSaurashtra-v2.002.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSaurashtra/googlefonts/ttf/NotoSansSaurashtra-Regular.ttf"
+    dest_file: "NotoSansSaurashtra-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-sans-saurashtra.yaml"
+}
+is_noto: true
+languages: "saz_Saur"
+primary_script: "Saur"

@@ -16,3 +16,10 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/majormono"
+  commit: "ab4221e332ee158b314406b4ca01246290a9168b"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+classifications: "MONOSPACE"

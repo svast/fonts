@@ -18,3 +18,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/alexeiva/poiretone"
+  commit: "74eec8d29c9b5179cbd63b1c3d152233aa537123"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

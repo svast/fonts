@@ -30,3 +30,10 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/josefinsans"
+  commit: "bf6907e3a34924300dd407201262f62c2fc2a642"
+  config_yaml: "sources/config.yaml"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

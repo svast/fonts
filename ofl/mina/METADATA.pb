@@ -25,3 +25,20 @@ subsets: "bengali"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/suman51284/Mina"
+  commit: "20350840b9a0b08d7855d22e2890c3ed93237edd"
+  files {
+    source_file: "FONTS/ttf/Mina-Regular.ttf"
+    dest_file: "Mina-Regular.ttf"
+  }
+  files {
+    source_file: "FONTS/ttf/Mina-Bold.ttf"
+    dest_file: "Mina-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+}
+primary_script: "Beng"

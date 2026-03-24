@@ -1,8 +1,13 @@
 name: "Chathura"
-designer: "Multiple Designers"
+designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-09"
+source {
+  repository_url: "https://github.com/appajid/Chathura"
+  commit: "f6944e361db05f2cb3a33356e54615f4cf754de8"
+}
+
 fonts {
   name: "Chathura"
   style: "normal"
@@ -51,3 +56,4 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 subsets: "telugu"
+primary_script: "Telu"

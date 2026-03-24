@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Exo[wght].ttf"
-  post_script_name: "Exo-Thin"
-  full_name: "Exo Thin"
+  post_script_name: "Exo-Regular"
+  full_name: "Exo Regular"
   copyright: "Copyright 2017 The Exo Project Authors (https://github.com/NDISCOVER/Exo-1.0)"
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Exo-Italic[wght].ttf"
-  post_script_name: "Exo-ThinItalic"
-  full_name: "Exo Thin Italic"
+  post_script_name: "Exo-Italic"
+  full_name: "Exo Italic"
   copyright: "Copyright 2017 The Exo Project Authors (https://github.com/NDISCOVER/Exo-1.0)"
 }
 subsets: "latin"
@@ -29,4 +29,9 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/NDISCOVER/Exo-1.0"
+  commit: "3be4f55b626129f17a3b82677703e48c03dc2052"
+  config_yaml: "sources/config.yaml"
 }

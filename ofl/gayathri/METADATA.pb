@@ -1,5 +1,5 @@
 name: "Gayathri"
-designer: "SMC"
+designer: "SMC, Binoy Dominic"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-10"
@@ -33,3 +33,10 @@ fonts {
 subsets: "latin"
 subsets: "malayalam"
 subsets: "menu"
+primary_script: "Mlym"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/smc/Gayathri"
+  commit: "5ad0cb435bd61227de1e95dc54ee85bfca671c53"
+}

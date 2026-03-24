@@ -7,75 +7,49 @@ fonts {
   name: "Asap"
   style: "normal"
   weight: 400
-  filename: "Asap-Regular.ttf"
+  filename: "Asap[wdth,wght].ttf"
   post_script_name: "Asap-Regular"
   full_name: "Asap Regular"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)"
 }
 fonts {
   name: "Asap"
   style: "italic"
   weight: 400
-  filename: "Asap-Italic.ttf"
+  filename: "Asap-Italic[wdth,wght].ttf"
   post_script_name: "Asap-Italic"
   full_name: "Asap Italic"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "normal"
-  weight: 500
-  filename: "Asap-Medium.ttf"
-  post_script_name: "Asap-Medium"
-  full_name: "Asap Medium"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "italic"
-  weight: 500
-  filename: "Asap-MediumItalic.ttf"
-  post_script_name: "Asap-MediumItalic"
-  full_name: "Asap Medium Italic"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "normal"
-  weight: 600
-  filename: "Asap-SemiBold.ttf"
-  post_script_name: "Asap-SemiBold"
-  full_name: "Asap SemiBold"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "italic"
-  weight: 600
-  filename: "Asap-SemiBoldItalic.ttf"
-  post_script_name: "Asap-SemiBoldItalic"
-  full_name: "Asap SemiBold Italic"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "normal"
-  weight: 700
-  filename: "Asap-Bold.ttf"
-  post_script_name: "Asap-Bold"
-  full_name: "Asap Bold"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
-}
-fonts {
-  name: "Asap"
-  style: "italic"
-  weight: 700
-  filename: "Asap-BoldItalic.ttf"
-  post_script_name: "Asap-BoldItalic"
-  full_name: "Asap Bold Italic"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wdth"
+  min_value: 75.0
+  max_value: 125.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/Omnibus-Type/Asap"
+  commit: "2de32f20d7a0d48d4084adcf4bd6ac8115cf2f1a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Asap[wdth,wght].ttf"
+    dest_file: "Asap[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Asap-Italic[wdth,wght].ttf"
+    dest_file: "Asap-Italic[wdth,wght].ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}

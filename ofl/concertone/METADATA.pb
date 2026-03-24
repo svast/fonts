@@ -1,8 +1,13 @@
 name: "Concert One"
-designer: "Multiple Designers"
+designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/librefonts/concertone"
+  commit: "c2160f498dbb0ebf8394fbd117c21d2160cdef01"
+}
+
 fonts {
   name: "Concert One"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

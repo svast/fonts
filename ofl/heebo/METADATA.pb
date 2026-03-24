@@ -1,5 +1,5 @@
 name: "Heebo"
-designer: "Multiple Designers"
+designer: "Oded Ezer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
@@ -14,9 +14,28 @@ fonts {
 }
 subsets: "hebrew"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/OdedEzer/heebo"
+  commit: "76c7d538568d3e6d7f052a12c5675c84430df25f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Heebo[wght].ttf"
+    dest_file: "Heebo[wght].ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Hebr"
+stroke: "SANS_SERIF"

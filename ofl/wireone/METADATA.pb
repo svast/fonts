@@ -7,10 +7,30 @@ fonts {
   name: "Wire One"
   style: "normal"
   weight: 400
-  filename: "WireOne.ttf"
-  post_script_name: "WireOne"
-  full_name: "Wire One"
-  copyright: "Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved Font Name 'Wire'"
+  filename: "WireOne-Regular.ttf"
+  post_script_name: "WireOne-Regular"
+  full_name: "Wire One Regular"
+  copyright: "Copyright 2011 The Wire One Project Authors (https://github.com/cyrealtype/Wire-One)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Wire-One"
+  commit: "16db96d77889d4a8de2015ca5f3fc965446437d4"
+  config_yaml: "sources/builder.yaml"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TTF/WireOne-Regular.ttf"
+    dest_file: "WireOne-Regular.ttf"
+  }
+  branch: "master"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

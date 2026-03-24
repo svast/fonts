@@ -62,3 +62,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/athiti"
+  commit: "541c0b5034964f8db50ef52921fede1422194abe"
+}
+primary_script: "Thai"

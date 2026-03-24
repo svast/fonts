@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/theleagueof/knewave"
+  commit: "f335d5ff1f12e4acf97d4208e1c37b4d386e57fb"
+}

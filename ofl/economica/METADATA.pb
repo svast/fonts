@@ -42,3 +42,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/economica"
+  commit: "6bf48e6858755227cdd104ee4b44e9e2e4bb197b"
+}

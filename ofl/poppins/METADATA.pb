@@ -1,5 +1,5 @@
 name: "Poppins"
-designer: "Indian Type Foundry, Jonny Pinhorn"
+designer: "Indian Type Foundry, Jonny Pinhorn, Ninad Kale"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-03"
@@ -165,6 +165,12 @@ fonts {
   full_name: "Poppins Black Italic"
   copyright: "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
 }
+subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/Poppins"
+  commit: "738d9d691b66f1ad917123c58df104d16c74e1a7"
+}
+primary_script: "Deva"

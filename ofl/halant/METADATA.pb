@@ -52,3 +52,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Deva"
+source {
+  repository_url: "https://github.com/itfoundry/halant"
+  commit: "5991cb7b8f338a3676e349dd6f3bb3358467cb69"
+}

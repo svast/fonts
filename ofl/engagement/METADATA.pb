@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/engagement"
+  commit: "4a28e79422bbd98791c29adff6630d14f620ffd3"
+}

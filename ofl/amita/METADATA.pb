@@ -1,5 +1,5 @@
 name: "Amita"
-designer: "Multiple Designers"
+designer: "Eduardo Tunni, Brian Bonislawsky"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2015-05-20"
@@ -25,3 +25,11 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Amita"
+  commit: "92680c07f01285a23744cda1190690c5c7f3f73c"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Deva"
+stroke: "SERIF"
+classifications: "DISPLAY"

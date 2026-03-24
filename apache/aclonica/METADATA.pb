@@ -14,3 +14,9 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/aclonica"
+  commit: "2746e457bdb6c42c89faa2803030ba609e935390"
+}

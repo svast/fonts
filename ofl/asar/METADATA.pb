@@ -16,3 +16,9 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/SorkinType/Asar"
+  commit: "d04fb75bf304be9bfb0eff403a1d6ef8dc6c5f94"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Deva"

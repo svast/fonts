@@ -13,8 +13,12 @@ fonts {
   copyright: "Copyright 2020 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "nyiakeng-puachue-hmong"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
+is_noto: true
+languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
+primary_script: "Hmnp"

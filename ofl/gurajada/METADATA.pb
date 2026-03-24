@@ -1,7 +1,7 @@
 name: "Gurajada"
 designer: "Purushoth Kumar Guttula"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2015-01-08"
 fonts {
   name: "Gurajada"
@@ -15,3 +15,10 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/gurajada"
+  commit: "47d49279bffcb4cebab2dca10f8d7b20ff5230a2"
+}
+primary_script: "Telu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

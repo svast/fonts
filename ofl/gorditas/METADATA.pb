@@ -23,3 +23,9 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/gorditas"
+  commit: "2212c0647e87c13121e408ee446dffe924792ac1"
+}

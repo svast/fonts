@@ -1,16 +1,32 @@
 name: "Moulpali"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2011-03-02"
 fonts {
   name: "Moulpali"
   style: "normal"
   weight: 400
-  filename: "Moulpali.ttf"
-  post_script_name: "MoulPali"
-  full_name: "Moul Pali"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Moulpali. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  filename: "Moulpali-Regular.ttf"
+  post_script_name: "Moulpali-Regular"
+  full_name: "Moulpali Regular"
+  copyright: "Copyright 2020 The Moulpali Project Authors (https://github.com/danhhong/Moulpali)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Moulpali"
+  commit: "fdfa5638779a2fe76414b2c1ff449435608df23c"
+  config_yaml: "Source/builder.yaml"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Moulpali-Regular.ttf"
+    dest_file: "Moulpali-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"

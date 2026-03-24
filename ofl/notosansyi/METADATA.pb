@@ -10,6 +10,35 @@ fonts {
   filename: "NotoSansYi-Regular.ttf"
   post_script_name: "NotoSansYi-Regular"
   full_name: "Noto Sans Yi Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yi)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "yi"
+source {
+  repository_url: "https://github.com/notofonts/yi"
+  commit: "bdf568a724f7dd9c59f6fb04cdac4e3450699d63"
+  archive_url: "https://github.com/notofonts/yi/releases/download/NotoSansYi-v2.002/NotoSansYi-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansYi/googlefonts/ttf/NotoSansYi-Regular.ttf"
+    dest_file: "NotoSansYi-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-sans-yi.yaml"
+}
+is_noto: true
+languages: "ii_Yiii"
+primary_script: "Yiii"

@@ -21,3 +21,8 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/VanillaandCream/Catamaran-Tamil"
+  commit: "7559b4906f9c9148fb22c6f89508c3053a78a296"
+}
+primary_script: "Taml"

@@ -6,39 +6,32 @@ date_added: "2011-11-23"
 fonts {
   name: "Signika Negative"
   style: "normal"
-  weight: 300
-  filename: "SignikaNegative-Light.ttf"
+  weight: 400
+  filename: "SignikaNegative[wght].ttf"
   post_script_name: "SignikaNegative-Light"
   full_name: "Signika Negative Light"
-  copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
-}
-fonts {
-  name: "Signika Negative"
-  style: "normal"
-  weight: 400
-  filename: "SignikaNegative-Regular.ttf"
-  post_script_name: "SignikaNegative-Regular"
-  full_name: "Signika Negative Regular"
-  copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
-}
-fonts {
-  name: "Signika Negative"
-  style: "normal"
-  weight: 600
-  filename: "SignikaNegative-SemiBold.ttf"
-  post_script_name: "SignikaNegative-SemiBold"
-  full_name: "Signika Negative SemiBold"
-  copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
-}
-fonts {
-  name: "Signika Negative"
-  style: "normal"
-  weight: 700
-  filename: "SignikaNegative-Bold.ttf"
-  post_script_name: "SignikaNegative-Bold"
-  full_name: "Signika Negative Bold"
-  copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
+  copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/aaronbell/signika"
+  commit: "bd066259b5a87d24b23c4f0da03a96889b6d0503"
+  files {
+    source_file: "fonts/variable_negative/SignikaNegative[wght].ttf"
+    dest_file: "SignikaNegative[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}

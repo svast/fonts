@@ -15,3 +15,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/flavors"
+  commit: "494aad3c703cd55dfa728cded360b49e128dc101"
+}

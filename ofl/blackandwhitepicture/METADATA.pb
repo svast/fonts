@@ -1,7 +1,7 @@
 name: "Black And White Picture"
 designer: "AsiaSoft Inc."
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2018-02-27"
 fonts {
   name: "Black And White Picture"
@@ -13,4 +13,6 @@ fonts {
   copyright: "Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved."
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
+primary_script: "Kore"

@@ -24,3 +24,9 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/alexeiva/comfortaa"
+  commit: "4aa21cfb7b018629dcf17aab6220e638411c7164"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -10,7 +10,7 @@ fonts {
   filename: "DancingScript[wght].ttf"
   post_script_name: "DancingScript-Regular"
   full_name: "Dancing Script Regular"
-  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script\'."
+  copyright: "Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name \'Dancing Script\'."
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -20,4 +20,18 @@ axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/DancingScript"
+  commit: "291f87c05206179b6bfd53735a5638b5cc84e3b3"
+  files {
+    source_file: "fonts/variable/DancingScript[wght].ttf"
+    dest_file: "DancingScript[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

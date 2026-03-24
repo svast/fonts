@@ -26,3 +26,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Charmonman"
+  commit: "8590fc4aaefe8ccf9ec0abeff7f66b6bc1a83503"
+}
+primary_script: "Thai"

@@ -16,3 +16,10 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
+primary_script: "Taml"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/enathu/kavivanar"
+  commit: "689a10bac6313880ae05b86aea2ad91979c9880d"
+}

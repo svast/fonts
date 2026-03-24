@@ -61,3 +61,10 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Deva"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/erinmclaughlin/Yantramanav"
+  commit: "e40db8e44292f8e320222a37d76151b4b6bbfc7e"
+}

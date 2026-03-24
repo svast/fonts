@@ -16,3 +16,7 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/10four/Bhavuka"
+  commit: "e4819c2a22da01f0bb124b26e3d1ab86d1e05587"
+}

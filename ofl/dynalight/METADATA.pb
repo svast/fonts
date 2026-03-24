@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/dynalight"
+  commit: "af7642053cc1189c5c8a4b93d0b4c1b1c5edcb49"
+}

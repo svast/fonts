@@ -151,3 +151,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/Fonthausen/Livvic"
+  commit: "30f612bf37946b0462c91ba2b4323e955a519463"
+}

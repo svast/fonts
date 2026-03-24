@@ -10,8 +10,13 @@ fonts {
   filename: "Ramaraja-Regular.ttf"
   post_script_name: "Ramaraja"
   full_name: "Ramaraja"
-  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name 'Crimson'"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \'Crimson\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+primary_script: "Telu"
+source {
+  repository_url: "https://github.com/appajid/ramaraja"
+  commit: "fc98f3e28ac1857afaeb80e1befa842f083f40f1"
+}

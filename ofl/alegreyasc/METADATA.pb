@@ -101,3 +101,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/huertatipografica/Alegreya"
+  commit: "d6aedcbb5a82a09dedb07ab99bb91803db8e02af"
+}

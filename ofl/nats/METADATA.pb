@@ -10,8 +10,13 @@ fonts {
   filename: "NATS-Regular.ttf"
   post_script_name: "NATS"
   full_name: "NATS"
-  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names \'Montserrat\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/nats"
+  commit: "7e1486a72988cb8ec1802e2dc2d7e4f59df35582"
+}
+primary_script: "Telu"

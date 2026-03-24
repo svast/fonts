@@ -1,7 +1,7 @@
 name: "Phetsarath"
 designer: "Danh Hong"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2012-05-18"
 fonts {
   name: "Phetsarath"
@@ -22,3 +22,5 @@ fonts {
   copyright: "Copyright (c) 2010-2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)"
 }
 subsets: "lao"
+primary_script: "Laoo"
+stroke: "SANS_SERIF"

@@ -45,3 +45,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/alexeiva/Arsenal"
+  commit: "878af0840749599133561eb6579d84f5c94f58f5"
+}

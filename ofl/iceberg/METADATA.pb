@@ -14,3 +14,9 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/librefonts/iceberg"
+  commit: "db1c024077a00f9999b5f6437a70c19ced5c1fc5"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

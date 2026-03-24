@@ -26,3 +26,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Charm"
+  commit: "873c5516023ae978e5a9de9e67b654d9ed92fc30"
+}
+primary_script: "Thai"

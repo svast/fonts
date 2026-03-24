@@ -19,3 +19,7 @@ subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/ossobuffo/didact-gothic"
+  commit: "adc3106364c1c79dca374283822289a83cf41a77"
+}

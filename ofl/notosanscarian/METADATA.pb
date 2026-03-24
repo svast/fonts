@@ -10,6 +10,35 @@ fonts {
   filename: "NotoSansCarian-Regular.ttf"
   post_script_name: "NotoSansCarian-Regular"
   full_name: "Noto Sans Carian Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/carian)"
 }
+subsets: "carian"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/carian"
+  commit: "90653aaa664123ff3b49ac9a1380d08feb84cf4e"
+  archive_url: "https://github.com/notofonts/carian/releases/download/NotoSansCarian-v2.002/NotoSansCarian-v2.002.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansCarian/googlefonts/ttf/NotoSansCarian-Regular.ttf"
+    dest_file: "NotoSansCarian-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-sans-carian.yaml"
+}
+is_noto: true
+languages: "xcr_Cari"
+primary_script: "Cari"

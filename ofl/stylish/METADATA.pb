@@ -14,3 +14,6 @@ fonts {
 }
 subsets: "korean"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+primary_script: "Kore"

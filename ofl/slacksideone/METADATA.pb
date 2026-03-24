@@ -16,3 +16,23 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/ManiackersDesign/slackside"
+  files {
+    source_file: "fonts/ttf/SlacksideOne-Regular.ttf"
+    dest_file: "SlacksideOne-Regular.ttf"
+  }
+  files {
+    source_file: "ofl.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+  commit: "e5a03bb81c7a6c6eb9f901b993c2164213f143d4"
+}
+primary_script: "Hira"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

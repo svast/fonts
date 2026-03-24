@@ -10,7 +10,25 @@ fonts {
   filename: "Angkor-Regular.ttf"
   post_script_name: "Angkor-Regular"
   full_name: "Angkor Regular"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com), with Reserved Font Name Angkor. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)"
 }
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Angkor"
+  commit: "8a6117ad7d97eee87c364657b47f35742df3bba9"
+  config_yaml: "Source/builder.yaml"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Angkor-Regular.ttf"
+    dest_file: "Angkor-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"
+stroke: "SERIF"
+classifications: "DISPLAY"

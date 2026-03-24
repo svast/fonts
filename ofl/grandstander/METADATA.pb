@@ -30,3 +30,11 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/Etcetera-Type-Co/Grandstander"
+  commit: "33c288495d8ac7bc0b29a9f35801de1df7e6d010"
+  config_yaml: "Sources/config.yaml"
+}
+minisite_url: "https://etceteratype.co/grandstander"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

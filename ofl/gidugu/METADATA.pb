@@ -8,10 +8,28 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Gidugu-Regular.ttf"
-  post_script_name: "Gidugu"
-  full_name: "Gidugu"
-  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2014 Eduardo Tunni (http://www.tipo.net.ar)"
+  post_script_name: "Gidugu-Regular"
+  full_name: "Gidugu Regular"
+  copyright: "Copyright 2025 The Gidugu Project Authors (https://github.com/googlefonts/gidugu)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/googlefonts/gidugu"
+  commit: "834c5de1862debc558e536377bc3ebc1c35bf958"
+  config_yaml: "sources/config.yaml"
+  files {
+    source_file: "fonts/ttf/Gidugu-Regular.ttf"
+    dest_file: "Gidugu-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
+primary_script: "Telu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

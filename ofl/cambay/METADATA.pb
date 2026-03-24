@@ -43,3 +43,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/anexasajoop/cambay"
+  commit: "538b69cc50d692cb0864372cab691a9da757c498"
+}
+primary_script: "Deva"

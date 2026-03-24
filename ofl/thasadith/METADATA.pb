@@ -44,3 +44,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Thasadith"
+  commit: "033efaea8de73e59dc6bace69d2ffb69d4598b03"
+}
+primary_script: "Thai"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

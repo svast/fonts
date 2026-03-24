@@ -30,3 +30,21 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/weiweihuanghuang/Work-Sans"
+  commit: "b35c81086186162164947bd39574683073d9b268"
+  files {
+    source_file: "fonts/variable/WorkSans[wght].ttf"
+    dest_file: "WorkSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/WorkSans-Italic[wght].ttf"
+    dest_file: "WorkSans-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}

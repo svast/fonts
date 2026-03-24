@@ -14,3 +14,9 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/geostarfill"
+  commit: "48dc43d804ebfd6743caa51e2d42d17dd34b275c"
+}

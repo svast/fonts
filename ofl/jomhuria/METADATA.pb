@@ -15,3 +15,10 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Arab"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/Tarobish/Jomhuria"
+  commit: "d4b8f42eaf712178802609bfbe48127bd45be9c8"
+}

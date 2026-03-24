@@ -1,5 +1,5 @@
 name: "Arya"
-designer: "Multiple Designers"
+designer: "Eduardo Tunni"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-05-20"
@@ -25,3 +25,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Arya"
+  commit: "103dc785f25067abe0e63de7b8e839e1863877a9"
+}
+primary_script: "Deva"

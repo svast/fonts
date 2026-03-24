@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "HANDWRITING"
+source {
+  repository_url: "https://github.com/librefonts/handlee"
+  commit: "d937cfc17b0389d9847b8a865060b7241af7c654"
+}

@@ -16,3 +16,22 @@ subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/Benne"
+  commit: "0e13f2e4e66eb5ed0076224b113398b78109748d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "TTF/Benne-Regular.ttf"
+    dest_file: "Benne-Regular.ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Knda"

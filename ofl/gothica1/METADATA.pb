@@ -93,3 +93,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+primary_script: "Kore"
+source {
+  repository_url: "https://github.com/hanyangfont/Gothic"
+  commit: "599d7e34fff27a50f3e9266b753ad661d3167b91"
+}

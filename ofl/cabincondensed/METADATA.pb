@@ -43,3 +43,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/impallari/Cabin"
+  commit: "9476ee6f5459ee37cf8462452f3e4640c3a48519"
+}

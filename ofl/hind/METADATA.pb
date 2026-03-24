@@ -52,3 +52,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/hind"
+  commit: "6caef5262dc5bee3e033207082a073a6a1d172d6"
+}
+primary_script: "Deva"

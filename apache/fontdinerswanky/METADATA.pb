@@ -14,3 +14,9 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/fontdinerswanky"
+  commit: "5b2cf4d5d4919c4d21a73ce08e1bf93d853571d2"
+}

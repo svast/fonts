@@ -173,3 +173,186 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/LatoGFVersion"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 98.05
+  local_src: "Roboto"
+  ascent_override_pct: 100.0
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300.0
+    max_value: 300.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 99.61
+  local_src: "Roboto"
+  ascent_override_pct: 95.31
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400.0
+    max_value: 400.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 101.37
+  local_src: "Roboto"
+  ascent_override_pct: 93.75
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700.0
+    max_value: 700.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 102.73
+  local_src: "Roboto"
+  ascent_override_pct: 92.19
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900.0
+    max_value: 900.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0.0
+    max_value: 0.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 104.69
+  local_src: "Roboto"
+  ascent_override_pct: 89.06
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 95.31
+  local_src: "Roboto Italic"
+  ascent_override_pct: 100.0
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300.0
+    max_value: 300.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 96.09
+  local_src: "Roboto Italic"
+  ascent_override_pct: 100.0
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400.0
+    max_value: 400.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 97.66
+  local_src: "Roboto Italic"
+  ascent_override_pct: 98.44
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700.0
+    max_value: 700.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 99.22
+  local_src: "Roboto Italic"
+  ascent_override_pct: 95.31
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900.0
+    max_value: 900.0
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1.0
+    max_value: 1.0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 100.59
+  local_src: "Roboto Italic"
+  ascent_override_pct: 93.75
+}

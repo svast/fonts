@@ -24,3 +24,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "bfq_Taml"  # Badaga
+languages: "ta_Taml"  # Tamil
+primary_script: "Taml"

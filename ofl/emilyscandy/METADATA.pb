@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/emilyscandy"
+  commit: "6c0f2ad7e9b0bcc6d69bbd5896b980bf1e208074"
+}

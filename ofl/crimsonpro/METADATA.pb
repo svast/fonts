@@ -6,19 +6,19 @@ date_added: "2018-12-05"
 fonts {
   name: "Crimson Pro"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "CrimsonPro[wght].ttf"
-  post_script_name: "CrimsonPro-ExtraLight"
-  full_name: "Crimson Pro ExtraLight"
+  post_script_name: "CrimsonPro-Regular"
+  full_name: "Crimson Pro Regular"
   copyright: "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"
 }
 fonts {
   name: "Crimson Pro"
   style: "italic"
-  weight: 200
+  weight: 400
   filename: "CrimsonPro-Italic[wght].ttf"
-  post_script_name: "CrimsonPro-ExtraLightItalic"
-  full_name: "Crimson Pro ExtraLight Italic"
+  post_script_name: "CrimsonPro-Italic"
+  full_name: "Crimson Pro Italic"
   copyright: "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"
 }
 subsets: "latin"
@@ -29,4 +29,9 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/Fonthausen/CrimsonPro"
+  commit: "24e8f7bf59ec45d77c67879ad80d97e5f94c787b"
+  config_yaml: "sources/config.yaml"
 }

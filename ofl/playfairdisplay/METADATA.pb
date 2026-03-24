@@ -31,3 +31,10 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/clauseggers/Playfair"
+  commit: "80a334101928546b04fa9e709ad4b2f11f8a9e10"
+  config_yaml: "sources/config.yaml"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

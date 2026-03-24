@@ -18,3 +18,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/Pacifico"
+  commit: "423e7cb2b036ead2624c05197e17a83ddf5c6068"
+  config_yaml: "sources/config.yaml"
+}

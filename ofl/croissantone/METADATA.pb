@@ -3,6 +3,11 @@ designer: "Eduardo Tunni"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-11-12"
+source {
+  repository_url: "https://github.com/librefonts/croissantone"
+  commit: "ebcefa6161a0558f994a038105f90f304fe91ff7"
+}
+
 fonts {
   name: "Croissant One"
   style: "normal"
@@ -10,8 +15,10 @@ fonts {
   filename: "CroissantOne-Regular.ttf"
   post_script_name: "CroissantOne-Regular"
   full_name: "Croissant One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Croissant'"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Croissant\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -24,3 +24,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "kn_Knda"  # Kannada
+languages: "tcy_Knda"  # Tulu
+primary_script: "Knda"

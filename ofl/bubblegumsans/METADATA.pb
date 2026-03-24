@@ -3,6 +3,11 @@ designer: "Sudtipos"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-23"
+source {
+  repository_url: "https://github.com/librefonts/bubblegumsans"
+  commit: "fcf8bdd5e83b65186641b2b67fd957ff061666e3"
+}
+
 fonts {
   name: "Bubblegum Sans"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

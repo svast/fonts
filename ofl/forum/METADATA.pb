@@ -17,3 +17,9 @@ subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/forum"
+  commit: "e8efc0bceef3b98cf32f722bf637f3c110f68a37"
+}

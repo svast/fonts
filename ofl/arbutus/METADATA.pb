@@ -1,8 +1,13 @@
 name: "Arbutus"
 designer: "Karolina Lach"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2011-12-07"
+source {
+  repository_url: "https://github.com/librefonts/arbutus"
+  commit: "413fe5b2122e7a4d1ce6c604000f368a6bf8f6ac"
+}
+
 fonts {
   name: "Arbutus"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

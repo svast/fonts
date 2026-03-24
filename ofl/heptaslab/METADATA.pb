@@ -6,7 +6,7 @@ date_added: "2018-09-19"
 fonts {
   name: "Hepta Slab"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "HeptaSlab[wght].ttf"
   post_script_name: "HeptaSlab-ExtraLight"
   full_name: "Hepta Slab ExtraLight"
@@ -21,3 +21,13 @@ axes {
   min_value: 1.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/mjlagattuta/Hepta-Slab"
+  commit: "4401d23f516b412f1b8472fe705b37b8712b2ecd"
+  files {
+    source_file: "fonts/variable/HeptaSlab[wght].ttf"
+    dest_file: "HeptaSlab[wght].ttf"
+  }
+  branch: "master"
+}
+stroke: "SLAB_SERIF"

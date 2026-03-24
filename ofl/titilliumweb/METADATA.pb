@@ -1,5 +1,5 @@
 name: "Titillium Web"
-designer: "Multiple Designers"
+designer: "Accademia di Belle Arti di Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-01"
@@ -105,3 +105,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

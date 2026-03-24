@@ -10,8 +10,14 @@ fonts {
   filename: "ZCOOLKuaiLe-Regular.ttf"
   post_script_name: "ZCOOLKuaiLe-Regular"
   full_name: "ZCOOL KuaiLe Regular"
-  copyright: "Copyright 2018 The ZCOOL KuaiLe Project Authors (https://www.github.com/googlefonts/zcool-kuaile)"
+  copyright: "Copyright 2018 The ZCOOL KuaiLe Project Authors (https://github.com/googlefonts/zcool-kuaile)"
 }
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zcool-kuaile"
+  commit: "577cd45e035fa0cd27f74579de6ff47db62fde8c"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Hans"

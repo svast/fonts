@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/frederickathegreat"
+  commit: "6968170d91ffd9daea400fb4d12bf0173f7d6302"
+}

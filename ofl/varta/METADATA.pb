@@ -21,3 +21,7 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/SorkinType/Varta"
+  commit: "38d842bff4d906c7f8859d898b1ac946a549c092"
+}

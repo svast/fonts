@@ -15,3 +15,8 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zcool-qingke-huangyou"
+  commit: "c9dac424b0a9f47d3b113cff4a4922f632d82c94"
+}
+primary_script: "Hans"

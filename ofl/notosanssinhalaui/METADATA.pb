@@ -24,3 +24,8 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "pi_Sinh"  # Pali, Sinhala
+languages: "sa_Sinh"  # Sanskrit, Sinhala
+languages: "si_Sinh"  # Sinhala
+primary_script: "Sinh"

@@ -1,7 +1,7 @@
 name: "Tillana"
 designer: "Indian Type Foundry"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2015-06-03"
 fonts {
   name: "Tillana"
@@ -52,3 +52,8 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/tillana"
+  commit: "7fccbe20b93ad8bcb3c7d7bee3afec03799bf5f6"
+}
+primary_script: "Deva"

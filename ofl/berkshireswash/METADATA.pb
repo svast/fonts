@@ -3,6 +3,11 @@ designer: "Astigmatic"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-03-14"
+source {
+  repository_url: "https://github.com/librefonts/berkshireswash"
+  commit: "1a4fb49d514e01ada8934472cae85cc4590efa58"
+}
+
 fonts {
   name: "Berkshire Swash"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -18,3 +18,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/alexeiva/yesevaone"
+  commit: "0d609f6155ed0fe1d822696135ffbd04b88fd017"
+}

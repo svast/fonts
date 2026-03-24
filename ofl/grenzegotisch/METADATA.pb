@@ -21,3 +21,10 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Grenze-Gotisch"
+  commit: "7b5eac166bc3b2a519f98b5c124cb7a11670cc7b"
+  config_yaml: "sources/config.yaml"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -30,9 +30,16 @@ fonts {
   full_name: "Cardo Bold"
   copyright: "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)"
 }
-subsets: "menu"
+subsets: "gothic"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "old-italic"
+subsets: "runic"
+source {
+  repository_url: "https://github.com/googlefonts/CardoFont"
+  commit: "b2bf876b4e251ac44b343605464dad86b336b38d"
+}

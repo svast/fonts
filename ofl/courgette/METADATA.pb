@@ -3,6 +3,11 @@ designer: "Karolina Lach"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-07-10"
+source {
+  repository_url: "https://github.com/librefonts/courgette"
+  commit: "e9638c8874f097c75ff3206c5dfe15b6ef4c67b1"
+}
+
 fonts {
   name: "Courgette"
   style: "normal"
@@ -15,3 +20,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

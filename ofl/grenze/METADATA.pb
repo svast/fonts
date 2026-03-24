@@ -169,3 +169,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Grenze"
+  commit: "a2a182c7b828c3d6a1784ef08b22be8521b2b9a7"
+  config_yaml: "sources/config.yaml"
+}

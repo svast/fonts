@@ -41,3 +41,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/polarsys/b612"
+  commit: "48ac6ba67ecab8123e8e36d6aa05367db0c7b638"
+}

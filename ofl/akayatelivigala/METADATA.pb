@@ -16,3 +16,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/vaishnavimurthy/Akaya-Telivigala"
+  commit: "93b31e45b69178ecfdb48981a5aa8a8b33bb0340"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "TTF/AkayaTelivigala-Regular.ttf"
+    dest_file: "AkayaTelivigala-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Telu"

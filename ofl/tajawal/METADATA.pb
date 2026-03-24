@@ -1,5 +1,5 @@
 name: "Tajawal"
-designer: "Boutros Fonts"
+designer: "Boutros Fonts, Mourad Boutros, Soulaf Khalifeh"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-04-04"
@@ -69,3 +69,8 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/tajawal"
+  commit: "2085b8942f234e7afb83dc03c77713d0d5471cc9"
+}
+primary_script: "Arab"

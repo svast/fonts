@@ -24,3 +24,8 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "hnj_Laoo"  # Mong Njua
+languages: "kjg_Laoo"  # Khmu
+languages: "lo_Laoo"  # Lao
+primary_script: "Laoo"

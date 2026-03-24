@@ -15,3 +15,10 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/lakkireddy"
+  commit: "bf2dceb7e47e591aa7e76d7e268636ea67d66986"
+}
+primary_script: "Telu"
+stroke: "SERIF"
+classifications: "DISPLAY"

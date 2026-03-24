@@ -34,3 +34,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/magictype/rowdies"
+  commit: "4703538d6102c2b5eb8fdcb126a6eaaa509f0d06"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -10,7 +10,7 @@ fonts {
   filename: "ABeeZee-Regular.ttf"
   post_script_name: "ABeeZee-Regular"
   full_name: "ABeeZee Regular"
-  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
+  copyright: "Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee) with Reserved Font Name ABeeZee"
 }
 fonts {
   name: "ABeeZee"
@@ -19,7 +19,26 @@ fonts {
   filename: "ABeeZee-Italic.ttf"
   post_script_name: "ABeeZee-Italic"
   full_name: "ABeeZee Italic"
-  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
+  copyright: "Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee) with Reserved Font Name ABeeZee"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/abeezee"
+  commit: "b9bd3f3522d91aca81eb668f56d40c2c62a90125"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ABeeZee-Regular.ttf"
+    dest_file: "ABeeZee-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ABeeZee-Italic.ttf"
+    dest_file: "ABeeZee-Italic.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config.yaml"
+}

@@ -10,6 +10,35 @@ fonts {
   filename: "NotoSansShavian-Regular.ttf"
   post_script_name: "NotoSansShavian-Regular"
   full_name: "Noto Sans Shavian Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/shavian)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "shavian"
+source {
+  repository_url: "https://github.com/notofonts/shavian"
+  commit: "15edbc9e0dd0c0ad627c658bbf439dce175a8ba4"
+  archive_url: "https://github.com/notofonts/shavian/releases/download/NotoSansShavian-v2.001/NotoSansShavian-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansShavian/googlefonts/ttf/NotoSansShavian-Regular.ttf"
+    dest_file: "NotoSansShavian-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-sans-shavian.yaml"
+}
+is_noto: true
+languages: "en_Shaw"
+primary_script: "Shaw"

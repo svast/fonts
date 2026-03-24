@@ -1,7 +1,7 @@
 name: "Laila"
 designer: "Indian Type Foundry"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2014-08-27"
 fonts {
   name: "Laila"
@@ -52,3 +52,9 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/laila"
+}
+primary_script: "Deva"
+stroke: "SERIF"
+classifications: "DISPLAY"

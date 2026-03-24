@@ -1,16 +1,7 @@
-catalog/designers/vaishnavimurthy
-ofl/oi
-ofl/dotgothic16
-ofl/stick
-ofl/rocknrollone
-ofl/shipporimincho
-ofl/shipporiminchob1
-ofl/mplus1p
-ofl/akayakanadaka
-ofl/akayatelivigala
-ofl/librebarcode39text
-ofl/librebarcode39extended
-ofl/librebarcode39
-ofl/librebarcode128text
-ofl/librebarcode128
-ofl/librebarcode39extendedtext
+# Designer profile
+catalog/designers/butko # https://github.com/google/fonts/pull/10314
+catalog/designers/ishtarvanlooy # https://github.com/google/fonts/pull/10071
+catalog/designers/maxthunberg # https://github.com/google/fonts/pull/10117
+
+# Metadata / Description / License
+ofl/allkin # https://github.com/google/fonts/pull/10252

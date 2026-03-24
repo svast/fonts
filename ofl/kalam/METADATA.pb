@@ -34,3 +34,8 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/itfoundry/kalam"
+  commit: "03a4d8a33849b1ad9afdee95006bc66d2d4aed94"
+}
+primary_script: "Deva"

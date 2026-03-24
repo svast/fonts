@@ -10,8 +10,14 @@ fonts {
   filename: "JuliusSansOne-Regular.ttf"
   post_script_name: "JuliusSansOne-Regular"
   full_name: "Julius Sans One"
-  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Julius'"
+  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names \'Julius\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/juliussansone"
+  commit: "8aadb0e8d6ef7f45aa2844ccd99f7e28f0cd1498"
+}

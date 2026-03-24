@@ -152,3 +152,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Sarabun"
+  commit: "854cdbc6afa002ff8c2ce6aa7b86f99c7f71c9eb"
+}
+primary_script: "Thai"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

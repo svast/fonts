@@ -33,3 +33,21 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/FAlthausen/Vollkorn-Typeface"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Vollkorn[wght].ttf"
+    dest_file: "Vollkorn[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Vollkorn-Italic[wght].ttf"
+    dest_file: "Vollkorn-Italic[wght].ttf"
+  }
+  branch: "master"
+  commit: "38ab7a896bd6b163ac7f834ec696d6c68e5dedd6"
+}
+minisite_url: "http://vollkorn-typeface.com/"

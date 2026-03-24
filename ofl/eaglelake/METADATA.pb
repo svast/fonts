@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/eaglelake"
+  commit: "4e2b26479cf425b115731aa69e380fd2f5fd88e5"
+}

@@ -45,3 +45,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/FAlthausen/Vollkorn-Typeface"
+  commit: "38ab7a896bd6b163ac7f834ec696d6c68e5dedd6"
+}

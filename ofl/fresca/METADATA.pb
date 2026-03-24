@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/librefonts/fresca"
+  commit: "ca8ad60bad380c425ebe357ee8a3a71770a849b4"
+}

@@ -170,3 +170,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+primary_script: "Thai"
+stroke: "SERIF"
+classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/cadsondemak/trirong"
+  commit: "0c1ce550d14a0a719ea49fcd6992cf5e1027dc6f"
+}

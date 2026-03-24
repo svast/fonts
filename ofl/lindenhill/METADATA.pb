@@ -24,3 +24,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/theleagueof/linden-hill"
+  commit: "a3f7ae6c4cac1b7e5ce5269e1fcc6a2fbb9e31ee"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

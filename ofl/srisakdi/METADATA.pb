@@ -26,3 +26,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Srisakdi"
+  commit: "fc86bd7feae6bf8b3a9f388f2a71f4c826a27859"
+}
+primary_script: "Thai"

@@ -116,3 +116,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Koho"
+  commit: "066267ad87e1bd2de617bf4129902317ccb6c04c"
+}
+primary_script: "Thai"

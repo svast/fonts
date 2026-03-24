@@ -1,5 +1,5 @@
 name: "Bitter"
-designer: "Huerta Tipográfica"
+designer: "Sol Matas"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
@@ -31,4 +31,22 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/solmatas/BitterPro"
+  commit: "3238d7ae2cb0b564b81225d68b3c893a40b1d3ce"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Bitter[wght].ttf"
+    dest_file: "Bitter[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Bitter-Italic[wght].ttf"
+    dest_file: "Bitter-Italic[wght].ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
 }

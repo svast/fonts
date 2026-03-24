@@ -1,2 +1,5 @@
 designer: "Google"
-link: "https://code.google.com/p/noto/"
+link: ""
+avatar {
+  file_name: "google.png"
+}

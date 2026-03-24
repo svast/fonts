@@ -15,3 +15,8 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zcool-xiaowei"
+  commit: "e94fc01eed059b3396129a48f756a46f7737fe2f"
+}
+primary_script: "Hans"

@@ -52,3 +52,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "sinhala"
+source {
+  repository_url: "https://github.com/mooniak/abhaya-libre-font"
+  commit: "f53da70786fe1dba6193bdbd45a2c4159e511079"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Sinh"

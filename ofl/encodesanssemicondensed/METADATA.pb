@@ -88,3 +88,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/impallari/Encode-Sans"
+  commit: "370cdccdb22daf862c6fca0636aad64b6835decd"
+}

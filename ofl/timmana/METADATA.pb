@@ -10,8 +10,13 @@ fonts {
   filename: "Timmana-Regular.ttf"
   post_script_name: "Timmana"
   full_name: "Timmana"
-  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua), with Reserved Font Names 'Sansus', 'Webissimo'."
+  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua), with Reserved Font Names \'Sansus\', \'Webissimo\'."
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+primary_script: "Telu"
+source {
+  repository_url: "https://github.com/appajid/timmana"
+  commit: "6ed6823a73b42a541885d12a7df389d3112a9380"
+}

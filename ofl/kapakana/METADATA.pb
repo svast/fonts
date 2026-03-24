@@ -1,5 +1,5 @@
 name: "Kapakana"
-designer: "Kyosuke Nagai"
+designer: "Kousuke Nagai"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2020-12-21"
@@ -21,3 +21,31 @@ axes {
   min_value: 300.0
   max_value: 400.0
 }
+source {
+  repository_url: "https://github.com/nagamaki008/kapakana"
+  commit: "0074870cd85239e8c5cf8949da54e0b111333a87"
+  files {
+    source_file: "fonts/ttf/Kapakana-Light.ttf"
+    dest_file: "static/Kapakana-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Kapakana-Regular.ttf"
+    dest_file: "static/Kapakana-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/variable/Kapakana[wght].ttf"
+    dest_file: "Kapakana[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
+primary_script: "Hira"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

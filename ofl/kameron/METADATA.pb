@@ -7,19 +7,31 @@ fonts {
   name: "Kameron"
   style: "normal"
   weight: 400
-  filename: "Kameron-Regular.ttf"
-  post_script_name: "Kameron"
-  full_name: "Kameron"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Kameron'. All rights reserved."
+  filename: "Kameron[wght].ttf"
+  post_script_name: "Kameron-Regular"
+  full_name: "Kameron Regular"
+  copyright: "Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)"
 }
-fonts {
-  name: "Kameron"
-  style: "normal"
-  weight: 700
-  filename: "Kameron-Bold.ttf"
-  post_script_name: "Kameron-Bold"
-  full_name: "Kameron Bold"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Kameron'. All rights reserved."
-}
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/kameronFont"
+  commit: "c13447c3b5fc11abd2eb640bd4a8dd789e38d76f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Kameron[wght].ttf"
+    dest_file: "Kameron[wght].ttf"
+  }
+  branch: "master"
+  config_yaml: "sources/config.yaml"
+}
+stroke: "SLAB_SERIF"

@@ -45,3 +45,8 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/undercasetype/Fraunces"
+  commit: "d6d385783609ceb11ac0f220f3abd9f1631c8a36"
+}
+minisite_url: "https://fraunces.undercase.xyz"

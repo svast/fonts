@@ -15,3 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+primary_script: "Telu"
+source {
+  repository_url: "https://github.com/appajid/ramabhadra"
+  commit: "09579428d71598b6d3148aebe5505df573cc1b30"
+}

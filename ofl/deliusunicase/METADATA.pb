@@ -3,6 +3,11 @@ designer: "Natalia Raices"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-12"
+source {
+  repository_url: "https://github.com/librefonts/deliusunicase"
+  commit: "cf094caecc96589701f341db1994fd10642e3c88"
+}
+
 fonts {
   name: "Delius Unicase"
   style: "normal"
@@ -23,3 +28,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

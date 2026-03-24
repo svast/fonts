@@ -98,3 +98,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/m4rc1e/Chakra-Petch"
+  commit: "6176529d05acf654f31e024daad77966319e499d"
+}
+primary_script: "Thai"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

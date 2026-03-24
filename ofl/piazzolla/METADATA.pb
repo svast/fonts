@@ -39,3 +39,23 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/huertatipografica/piazzolla"
+  commit: "fbd775f98a0a27570de0eaf20206860021c68b6b"
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla[opsz,wght].ttf"
+    dest_file: "Piazzolla[opsz,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla-Italic[opsz,wght].ttf"
+    dest_file: "Piazzolla-Italic[opsz,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "google_prs"
+}
+minisite_url: "https://piazzolla.huertatipografica.com/"
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -1,10 +1,16 @@
-name: "Bio Rhyme Expanded"
+name: "BioRhyme Expanded"
 designer: "Aoife Mooney"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
+source {
+  repository_url: "https://github.com/aoifemooney/makingbiorhyme"
+  commit: "b3c0488559ad7c42e11b71e65d255344faff63b9"
+  config_yaml: "sources/config.yaml"
+}
+
 fonts {
-  name: "Bio Rhyme Expanded"
+  name: "BioRhyme Expanded"
   style: "normal"
   weight: 200
   filename: "BioRhymeExpanded-ExtraLight.ttf"
@@ -13,7 +19,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme Expanded"
+  name: "BioRhyme Expanded"
   style: "normal"
   weight: 300
   filename: "BioRhymeExpanded-Light.ttf"
@@ -22,7 +28,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme Expanded"
+  name: "BioRhyme Expanded"
   style: "normal"
   weight: 400
   filename: "BioRhymeExpanded-Regular.ttf"
@@ -31,7 +37,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme Expanded"
+  name: "BioRhyme Expanded"
   style: "normal"
   weight: 700
   filename: "BioRhymeExpanded-Bold.ttf"
@@ -40,7 +46,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme Expanded"
+  name: "BioRhyme Expanded"
   style: "normal"
   weight: 800
   filename: "BioRhymeExpanded-ExtraBold.ttf"
@@ -51,3 +57,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

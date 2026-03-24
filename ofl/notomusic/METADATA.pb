@@ -10,6 +10,44 @@ fonts {
   filename: "NotoMusic-Regular.ttf"
   post_script_name: "NotoMusic-Regular"
   full_name: "Noto Music Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/music)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "music"
+source {
+  repository_url: "https://github.com/notofonts/music"
+  commit: "2c97b9ea6927a3a80bc7289d663d9115b070f365"
+  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.003/NotoMusic-v2.003.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoMusic/googlefonts/ttf/NotoMusic-Regular.ttf"
+    dest_file: "NotoMusic-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-music.yaml"
+}
+is_noto: true
+sample_text {
+  masthead_full: "𝄆𝄞♭𝅘𝅥𝅯"
+  masthead_partial: "𝄞𝅘𝅥𝅮"
+  styles: "𝄆 𝄙𝆏 𝅗𝅘𝅥𝅘𝅥𝅯𝅘𝅥𝅱 𝄞𝄟𝄢 𝄾𝄿𝄎 𝄴 𝄶𝅁 𝄭𝄰 𝇛𝇜 𝄊 𝄇 𝀸𝀹𝀺𝀻𝀼𝀽 𝈀𝈁𝈂𝈃𝈄𝈅"
+  tester: "𝄃 𝄚𝆑 𝅘𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅰𝆺𝅥𝅮𝆹𝅥𝅯 𝄞𝄠𝄡𝄽𝄣 𝄽𝅀𝄏𝆄 𝄵𝄑 𝆮𝄸𝅂 𝄬𝄯𝆵𝄫 𝇥𝇦𝇧𝇚 𝄜𝆦 𝄋𝄉𝆙 ♩♪♫♬ 𝄂 𝀁𝀂𝀋𝀌𝁭𝀷𝀪𝀫𝀬𝀭𝀮𝀯 𝈮𝈯𝈠𝈡𝈢𝈿𝉀"
+  poster_sm: "𝄃 𝄞♯ 𝅘𝅥𝄾 𝄀 ♭𝅗𝅥♫ 𝆑𝆏 𝄂"
+  poster_md: "𝄆 𝄞𝄰 𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅮𝅘𝅥 𝄇"
+  poster_lg: "𝄞𝅘𝅥𝅯"
+}
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

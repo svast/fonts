@@ -1,6 +1,7 @@
 name: "Inconsolata"
 designer: "Raph Levien"
 license: "OFL"
+category: "SANS_SERIF"
 category: "MONOSPACE"
 date_added: "2010-02-19"
 fonts {
@@ -25,4 +26,9 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/Inconsolata"
+  commit: "fc1fc21081558b39a2db43bfd9b65bf9acb50701"
+  config_yaml: "sources/config.yaml"
 }

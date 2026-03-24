@@ -116,3 +116,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/Kodchasan"
+  commit: "d68c1268f993ce0ee23a36ba6f2d1366e0d84453"
+}
+primary_script: "Thai"

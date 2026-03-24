@@ -52,3 +52,39 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/mt-funa/Tsukimi-Rounded"
+  files {
+    source_file: "fonts/ttf/TsukimiRounded-Light.ttf"
+    dest_file: "TsukimiRounded-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TsukimiRounded-Regular.ttf"
+    dest_file: "TsukimiRounded-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TsukimiRounded-Medium.ttf"
+    dest_file: "TsukimiRounded-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TsukimiRounded-SemiBold.ttf"
+    dest_file: "TsukimiRounded-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/TsukimiRounded-Bold.ttf"
+    dest_file: "TsukimiRounded-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+  commit: "7199ebaed5a78b14f7824cc3ea44f5694e790807"
+}
+primary_script: "Hira"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

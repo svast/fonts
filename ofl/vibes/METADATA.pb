@@ -15,3 +15,8 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/bluemix/vibes-typeface"
+  commit: "4cfe8e24413fc3711d3bba4c278e17429f93fc13"
+}
+primary_script: "Arab"

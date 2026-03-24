@@ -10,6 +10,35 @@ fonts {
   filename: "NotoSansTaiViet-Regular.ttf"
   post_script_name: "NotoSansTaiViet-Regular"
   full_name: "Noto Sans Tai Viet Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-viet)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "tai-viet"
+source {
+  repository_url: "https://github.com/notofonts/tai-viet"
+  commit: "8e1e11187d6bc19f48530777d268d2eee8b644b6"
+  archive_url: "https://github.com/notofonts/tai-viet/releases/download/NotoSansTaiViet-v2.004/NotoSansTaiViet-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf"
+    dest_file: "NotoSansTaiViet-Regular.ttf"
+  }
+  branch: "main"
+  config_yaml: "sources/config-sans-tai-viet.yaml"
+}
+is_noto: true
+languages: "blt_Tavt"
+primary_script: "Tavt"
